@@ -11,9 +11,7 @@
   ],
   "author": "JoJoHo",
   "license": "ISC",
-  "homepage": "https://github.com/johan974/munzeefaster#readme",
   "dependencies": {
-    "express": "^4.16.2",
-    "heroku-ssl-redirect": "0.0.4"
+    "express": "^4.16.2"
   }
 }

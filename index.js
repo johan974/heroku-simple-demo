@@ -1,9 +1,8 @@
-var sslRedirect = require('heroku-ssl-redirect');
 var express = require('express');
 var app = express();
 
 // enable ssl redirect
-app.use(sslRedirect());
+// app.use(sslRedirect());
 
 // app.get('/', function(req, res){
 //
@@ -14,5 +13,6 @@ app.use(sslRedirect());
 //     } ).resume();
 // } ).listen( port );
 
-app.use(express.static('public'));
-app.listen(8080);
+app.use(express.static( __dirname + '/public'));
+var port = process.env.PORT || 8000;
+app.listen(port);
