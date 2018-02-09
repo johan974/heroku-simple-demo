@@ -1,0 +1,19 @@
+{
+  "name": "htmlsimple",
+  "version": "1.0.0",
+  "description": "Simple static html demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "hello world"
+  ],
+  "author": "JoJoHo",
+  "license": "ISC",
+  "homepage": "https://github.com/johan974/munzeefaster#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "heroku-ssl-redirect": "0.0.4"
+  }
+}
